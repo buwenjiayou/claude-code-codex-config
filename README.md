@@ -1,10 +1,6 @@
 # Claude Code & Codex 配置经验笔记
 
-这是一个面向个人开发环境的配置经验仓库，主要整理 Claude Code 和 Codex 在终端、IDE、本地电脑、远程服务器中的常见配置入口与排错思路。
-
-推荐仓库名：`claude-code-codex-config-notes`
-
-> 本文档只记录个人实践经验。不同版本的 Claude Code、Codex、IDE 插件或中转服务可能存在差异，请以你实际安装版本和官方说明为准。
+> 本文档只记录个人实践经验。不同版本的 Claude Code、Codex、IDE 插件或中转服务可能存在差异，请以大家实际安装版本和官方说明为准。
 
 ## 目录
 
@@ -311,7 +307,3 @@ git status --short
 - 私有中转地址
 
 本仓库的 `.gitignore` 已经忽略常见密钥文件，但不要完全依赖忽略规则。提交前人工看一眼 diff，仍然是最稳妥的做法。
-
-## License
-
-本文档采用 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) 授权。
