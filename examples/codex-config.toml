@@ -1,0 +1,20 @@
+# 这里的名称需要和下方 model_providers 中的名称一致。
+model_provider = "<provider-name>"
+
+# 使用服务商支持的模型名。
+model = "gpt-5.5"
+
+# xhigh 更适合复杂任务，但响应会更慢。
+model_reasoning_effort = "xhigh"
+
+# 支持时关闭响应存储，减少敏感内容留存。
+disable_response_storage = true
+
+# 允许编辑当前工作区，限制更大范围的文件系统写入。
+sandbox_mode = "workspace-write"
+
+[model_providers."<provider-name>"]
+name = "<provider-display-name>"
+base_url = "<your-base-url>"
+wire_api = "responses"
+requires_openai_auth = true

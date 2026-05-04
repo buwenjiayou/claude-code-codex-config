@@ -1,0 +1,19 @@
+{
+  // 可选：把 Claude Code 固定在 IDE 面板中。
+  "claudeCode.preferredLocation": "panel",
+
+  // 核心配置：让 IDE 插件读取指定 API 地址和鉴权 token。
+  "claudeCode.environmentVariables": [
+    {
+      "name": "ANTHROPIC_BASE_URL",
+      "value": "<your-base-url>"
+    },
+    {
+      "name": "ANTHROPIC_AUTH_TOKEN",
+      "value": "<your-anthropic-auth-token>"
+    }
+  ],
+
+  // 可选：填写插件和服务商都支持的模型名。
+  "claudeCode.selectedModel": "<your-selected-model>"
+}

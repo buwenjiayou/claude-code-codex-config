@@ -1,0 +1,23 @@
+# Local Codex secrets
+.codex/auth.json
+.codex/auth*.json
+**/.codex/auth.json
+**/.codex/auth*.json
+!examples/codex-auth.example.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+.cache/
+tmp/
+temp/

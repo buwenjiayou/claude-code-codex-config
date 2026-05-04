@@ -1,0 +1,10 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "<your-base-url>",
+    "ANTHROPIC_AUTH_TOKEN": "<your-anthropic-auth-token>",
+    "ANTHROPIC_MODEL": "<your-default-model>",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "<your-sonnet-model>",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "<your-opus-model>",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "<your-haiku-model>"
+  }
+}
